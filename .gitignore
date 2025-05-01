@@ -1,0 +1,14 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers Python
+__pycache__/
+*.pyc
+
+# Données inutiles au déploiement
+agridetect_predictions.db
+training_hist.json
+
+# Poids de modèle (si trop gros)
+*.h5
