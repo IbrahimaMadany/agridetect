@@ -63,7 +63,8 @@ app_mode = st.sidebar.selectbox("Navigation", ["Accueil", "Reconnaissance", "À 
 if app_mode == "Accueil":
     st.image("logo_agridetect.png", width=200)
     st.header("🌿 Agridetect - Système intelligent de détection des maladies des plantes")
-    st.image("home_page.jpeg", use_column_width=True)
+#   st.image("home_page.jpeg", use_column_width=True)
+    st.image("home_page.jpeg", use_container_width=True)
     st.markdown("""
     Bienvenue sur **Agridetect** 🌱🔍  
     Téléversez une image de feuille de plante, et notre système l’analysera pour détecter toute maladie.  
